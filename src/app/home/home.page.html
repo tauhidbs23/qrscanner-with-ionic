@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button expand="full" (click)="startScanning()" color="success">
+    <ion-icon name="qr-code-outline"></ion-icon>
+    Scan Code
+  </ion-button>
+  <br>
+  <br>
+  <p>QR value is: {{QRScannerValue}} </p>
+</ion-content>
